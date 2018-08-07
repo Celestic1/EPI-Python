@@ -1,3 +1,8 @@
+'''
+[1,2,3] + [3,7,7] = [5,0,0]
+Add two list and return the new list
+'''
+
 def add_one(A,B):
   carry = 0
   result = []
