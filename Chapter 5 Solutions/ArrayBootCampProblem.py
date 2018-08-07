@@ -17,8 +17,10 @@ def ordereven(nums):
     elif nums[prev]&1 and not nums[i]&1:
       nums[prev],nums[i] = nums[i],nums[prev]
       prev += 1
+    elif not nums[prev]&1 and not nums[i]&1:
+      prev = i
   return nums
-  
+
 '''
 book solution
 O(n) time
